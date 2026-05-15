@@ -2,8 +2,8 @@ import smtplib
 import csv
 from email.message import EmailMessage
 
-sender_email="khushiisonawanee2006@gmail.com"
-app_password="patk yfyr uxjc euws"
+sender_email="your_email@gmail.com"
+app_password="your_app_password"
 
 def send_email(receiver_email, receiver_name):
     msg = EmailMessage()
